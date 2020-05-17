@@ -1,3 +1,18 @@
+# DOCUMENTATION:
+# You will need dwave_qbsolv and osmnx libraries to be able to use this program.
+# Please use these lines below to install these packages:
+# pip install dwave_qbsolv
+# pip install osmnx
+
+# in order for osmnx to be downloaded, you may have to install rtree from:
+# https://www.lfd.uci.edu/~gohlke/pythonlibs/#rtree
+# you may also have to install GDAL-API from:
+# http://www.gisinternals.com/release.php
+# this link is how to do it on windows: https://sandbox.idre.ucla.edu/sandbox/tutorials/installing-gdal-for-windows
+# if even though GDAL is installed and Fiona still does not install, get the whl for Fiona from here:
+# https://www.lfd.uci.edu/~gohlke/pythonlibs/#fiona
+
+
 from dwave_qbsolv import QBSolv
 
 def getIntersections(route1, route2):
